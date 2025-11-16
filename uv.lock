@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10, <4.0"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -1188,7 +1188,7 @@ requires-dist = [
     { name = "fastmcp", specifier = ">=2.8.1" },
     { name = "gitpython", specifier = ">=3.1.43,<4" },
     { name = "kafka-python-ng", marker = "extra == 'kafka'", specifier = ">=2.2.2,<3" },
-    { name = "llama-index-core", specifier = ">=0.11.17,<0.14.0" },
+    { name = "llama-index-core", specifier = ">=0.11.17,<1.15.0" },
     { name = "llama-index-workflows", specifier = ">=0.2.1" },
     { name = "opentelemetry-api", marker = "extra == 'observability'", specifier = ">=1.20.0,<2.0" },
     { name = "opentelemetry-exporter-jaeger", marker = "extra == 'observability'", specifier = ">=1.20.0,<2.0" },
